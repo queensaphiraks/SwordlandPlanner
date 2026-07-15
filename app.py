@@ -50,12 +50,14 @@ if st.session_state.mode is None:
             width='stretch',
         ):
             st.session_state.mode = "load"
+            #st.session_state.loaded_legion = legion
             st.rerun()
 
 else:
 
    if st.button(
         "⬅ Back to Main Menu",
+        key="back_top",
         width='stretch',
     ):
         st.session_state.mode = None
@@ -215,10 +217,16 @@ if st.session_state.mode == "create":
     # LEGION
     # =====================================================
 
+    default_legion = st.session_state.get(
+        "loaded_legion",
+        "L1"
+    )
+
     legion = st.radio(
         "Legion",
         ["L1", "L2"],
-        horizontal=True
+        horizontal=True,
+        index=0 if default_legion == "L1" else 1,
     )
 
     # =====================================================
@@ -448,7 +456,7 @@ if st.session_state.mode == "create":
         event_time_label,
     ):
 
-        path = PLANS_FOLDER / "current_plan.json"
+        path = PLANS_FOLDER / f"{legion}.json"
 
         plan = {
         "title": f"{legion} - {event_date.strftime('%d/%m')} - {event_time_label}",
@@ -695,6 +703,8 @@ if st.session_state.mode == "create":
             event_time_label,
         )
 
+        st.session_state.loaded_legion = legion
+
         st.success(
             f"Plan saved to {plan_path.name}"
         )
@@ -836,28 +846,42 @@ if st.session_state.mode == "create":
 
         st.divider()
 
-        st.subheader("Next Step")
-
-        st.info(
-            "Your plan has been saved. You can now open it to copy the "
-            "Application and Discord messages."
-        )
-
         if st.button(
-            "📂 Open Current Plan",
+            "⬅ Back to Main Menu",
+            key="back_bottom",
             use_container_width=True,
-            type="secondary",
         ):
-            st.session_state.mode = "load"
-
-            st.session_state.mode = "load"
-            st.session_state.from_create = True
-            st.rerun()
-
             if "result" in st.session_state:
                 del st.session_state["result"]
 
-            st.rerun() 
+            if "selection" in st.session_state:
+                del st.session_state["selection"]
+
+            st.session_state.roster_df = None
+            st.session_state.mode = None
+
+            st.rerun()
+
+        # st.subheader("Next Step")
+
+        # st.info(
+        #     "Your plan has been saved. You can now open it to copy the "
+        #     "Application and Discord messages."
+        # )
+
+        # if st.button(
+        #     f"📂 Open {legion} Plan",
+        #     use_container_width=True,
+        #     type="secondary",
+        # ):
+
+        #     st.session_state.loaded_legion = legion
+        #     st.session_state.mode = "load"
+
+        #     if "result" in st.session_state:
+        #         del st.session_state["result"]
+
+        #     st.rerun()
 
 
 if st.session_state.mode == "load":
@@ -871,10 +895,18 @@ if st.session_state.mode == "load":
         height=0,
     )
 
-    plan_file = PLANS_FOLDER / "current_plan.json"
+    st.header("📂 Load Plan")
+
+    legion = st.radio(
+        "Legion",
+        ["L1", "L2"],
+        horizontal=True,
+    )
+
+    plan_file = PLANS_FOLDER / f"{legion}.json"
 
     if not plan_file.exists():
-        st.warning("No saved plan found.")
+        st.warning(f"No saved plan found for {legion}.")
         st.stop()
 
     with open(plan_file, encoding="utf-8") as f:
