@@ -323,7 +323,37 @@ if st.session_state.mode == "create":
     # HELPER FUNCTIONS
     # =====================================================
 
-    def available_labels(current_key):
+    # def available_labels(current_key):
+
+    #     used = set()
+
+    #     for key, value in st.session_state.selection.items():
+
+    #         if key == current_key:
+    #             continue
+
+    #         if value != "":
+    #             used.add(value)
+
+    #     labels = []
+
+    #     current = st.session_state.selection[current_key]
+
+    #     if current != "" and current in reverse_lookup:
+    #         labels.append(reverse_lookup[current])
+
+    #     labels.append("")
+
+    #     for label, player in player_lookup.items():
+
+    #         if player not in used:
+
+    #             if label not in labels:
+    #                 labels.append(label)
+
+    #     return labels
+
+    def available_labels(current_key, top_n=None):
 
         used = set()
 
@@ -339,27 +369,41 @@ if st.session_state.mode == "create":
 
         current = st.session_state.selection[current_key]
 
+        # Keep the current selection visible
         if current != "" and current in reverse_lookup:
             labels.append(reverse_lookup[current])
 
         labels.append("")
 
+        count = 0
+
         for label, player in player_lookup.items():
 
-            if player not in used:
+            if player in used:
+                continue
 
-                if label not in labels:
-                    labels.append(label)
+            if label not in labels:
+                labels.append(label)
+                count += 1
+
+            if top_n is not None and count >= top_n:
+                break
 
         return labels
 
 
+    # def select_player(
+    #     title,
+    #     state_key,
+    # ):
     def select_player(
         title,
         state_key,
+        top_n=None,
     ):
 
-        labels = available_labels(state_key)
+        # labels = available_labels(state_key)
+        labels = available_labels(state_key, top_n)
 
         current = st.session_state.selection[state_key]
 
@@ -478,24 +522,28 @@ if st.session_state.mode == "create":
 
         leader_stables = select_player(
             "🏇 Stables / Reformation",
-            "leader_stables"
+            "leader_stables",
+            top_n=10,
         )
 
         leader_enemy1 = select_player(
             "⚔️ Enemy Sanctuary",
-            "leader_enemy1"
+            "leader_enemy1",
+            top_n=10,
         )
 
     with c2:
 
         leader_bell = select_player(
             "🔔 Bell Tower / Mercenary",
-            "leader_bell"
+            "leader_bell",
+            top_n=10,
         )
 
         leader_enemy2 = select_player(
             "🛡️ Our Sanctuary",
-            "leader_enemy2"
+            "leader_enemy2",
+            top_n=10,
         )
 
     leaders = {
@@ -519,24 +567,28 @@ if st.session_state.mode == "create":
 
         support_stables = select_player(
             "Support - Stables",
-            "support_stables"
+            "support_stables",
+            top_n=10,
         )
 
         support_enemy1 = select_player(
             "Support - Enemy Sanctuary",
-            "support_enemy1"
+            "support_enemy1",
+            top_n=10,
         )
 
     with c2:
 
         support_bell = select_player(
             "Support - Bell Tower",
-            "support_bell"
+            "support_bell",
+            top_n=10,
         )
 
         support_enemy2 = select_player(
             "Support - Our Sanctuary",
-            "support_enemy2"
+            "support_enemy2",
+            top_n=10,
         )
 
     supports = {
@@ -1000,4 +1052,3 @@ It’s important to garrison quickly in order to hold off single attacks. Additi
         language=None,
     )
 
-    
