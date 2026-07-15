@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 import re
 from config import DEFAULT_LEADERS, DEFAULT_ROAMER, DEFAULT_SHEET_URL
+import streamlit.components.v1 as components
 
 # =====================================================
 # PAGE CONFIG
@@ -36,7 +37,7 @@ if st.session_state.mode is None:
 
         if st.button(
             "📝 Create Assignments",
-            use_container_width=True,
+            width='stretch',
             type="primary",
         ):
             st.session_state.mode = "create"
@@ -46,7 +47,7 @@ if st.session_state.mode is None:
 
         if st.button(
             "📂 Load Plan",
-            use_container_width=True,
+            width='stretch',
         ):
             st.session_state.mode = "load"
             st.rerun()
@@ -55,7 +56,7 @@ else:
 
    if st.button(
         "⬅ Back to Main Menu",
-        use_container_width=True,
+        width='stretch',
     ):
         st.session_state.mode = None
 
@@ -706,14 +707,13 @@ if st.session_state.mode == "create":
 
         result = st.session_state["result"]
 
-    
-
         building_titles = {
             "bell": "🔔 Bell Tower / Mercenary",
             "stables": "🏇 Stables / Reformation",
             "enemy1": "⚔️ Enemy Sanctuary & Abbeys",
             "enemy2": "🛡️ Our Sanctuary & Abbeys",
         }
+
         # =====================================================
         # SUMMARY TABLE
         # =====================================================
@@ -785,28 +785,13 @@ if st.session_state.mode == "create":
                             badges.append("💰")
 
                         badge_text = " ".join(badges)
-
-                        left, right = st.columns([4, 1])
-
-                        with left:
-
-                            if badge_text:
-
-                                st.write(
-                                    f"{badge_text} **{player.name}**"
-                                )
-
-                            else:
-
-                                st.write(
-                                    f"**{player.name}**"
-                                )
-
-                        with right:
-
-                            st.write(
-                                f"{player.power:,}"
-                            )
+                        st.markdown(f"""
+                            <div style="display:flex;justify-content:space-between;align-items:center;">
+                                <div>{badge_text} <b>{player.name}</b></div>
+                                <div><b>{player.power:,}</b></div>
+                            </div>
+                            """, unsafe_allow_html=True)
+                    
 
         # =====================================================
         # ROAMER / UNDERCELLARS
@@ -845,8 +830,46 @@ if st.session_state.mode == "create":
 
                 st.info("None Assigned")
 
+        # =====================================================
+        # OPEN CURRENT PLAN
+        # =====================================================
+
+        st.divider()
+
+        st.subheader("Next Step")
+
+        st.info(
+            "Your plan has been saved. You can now open it to copy the "
+            "Application and Discord messages."
+        )
+
+        if st.button(
+            "📂 Open Current Plan",
+            use_container_width=True,
+            type="secondary",
+        ):
+            st.session_state.mode = "load"
+
+            st.session_state.mode = "load"
+            st.session_state.from_create = True
+            st.rerun()
+
+            if "result" in st.session_state:
+                del st.session_state["result"]
+
+            st.rerun() 
+
 
 if st.session_state.mode == "load":
+
+    components.html(
+        """
+        <script>
+            window.parent.scrollTo(0, 0);
+        </script>
+        """,
+        height=0,
+    )
 
     plan_file = PLANS_FOLDER / "current_plan.json"
 
@@ -1051,4 +1074,3 @@ It’s important to garrison quickly in order to hold off single attacks. Additi
         discord_message,
         language=None,
     )
-
