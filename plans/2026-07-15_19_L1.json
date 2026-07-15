@@ -1,0 +1,224 @@
+{
+    "title": "L1 - 15/07 - 19:00 UTC",
+    "event_date": "2026-07-15",
+    "event_time": "19:00 UTC",
+    "legion": "L1",
+    "roamer": "dionisis",
+    "undercellars": [
+        "BASMER",
+        "Crusher"
+    ],
+    "teams": {
+        "stables": [
+            {
+                "name": "Nightwing",
+                "power": 8931,
+                "leader": true,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Oberyn",
+                "power": 3575,
+                "leader": false,
+                "support": true,
+                "undercellar": false
+            },
+            {
+                "name": "Nobbytoddy",
+                "power": 3268,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Zooooomie",
+                "power": 2911,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Slizzing",
+                "power": 2718,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Jackey",
+                "power": 2423,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Grump",
+                "power": 2315,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            }
+        ],
+        "bell": [
+            {
+                "name": "ASMODEUS",
+                "power": 4481,
+                "leader": true,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Saadq",
+                "power": 3429,
+                "leader": false,
+                "support": true,
+                "undercellar": false
+            },
+            {
+                "name": "Nyxaria",
+                "power": 3366,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "MissCel",
+                "power": 3043,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Galaktic",
+                "power": 2812,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Sharkie",
+                "power": 2651,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Alcapa",
+                "power": 2399,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Scorpio",
+                "power": 2228,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            }
+        ],
+        "enemy1": [
+            {
+                "name": "Ghost",
+                "power": 7583,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Larry",
+                "power": 6957,
+                "leader": true,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Benray",
+                "power": 2764,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Il guiscardo",
+                "power": 2481,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Didi",
+                "power": 2364,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "BASMER",
+                "power": 1636,
+                "leader": false,
+                "support": false,
+                "undercellar": true
+            }
+        ],
+        "enemy2": [
+            {
+                "name": "Chopper",
+                "power": 4066,
+                "leader": true,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Giray",
+                "power": 3402,
+                "leader": false,
+                "support": true,
+                "undercellar": false
+            },
+            {
+                "name": "Corran",
+                "power": 3284,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Saphira",
+                "power": 2971,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Wouya",
+                "power": 2766,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Jacmire",
+                "power": 2530,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "JrGinger",
+                "power": 2386,
+                "leader": false,
+                "support": false,
+                "undercellar": false
+            },
+            {
+                "name": "Crusher",
+                "power": 2023,
+                "leader": false,
+                "support": false,
+                "undercellar": true
+            }
+        ]
+    }
+}
