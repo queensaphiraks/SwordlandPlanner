@@ -11,7 +11,6 @@ def show_messages(category):
 
     st.title(f"💬 {category} Messages")
 
-
     # -----------------------------
     # Back button
     # -----------------------------
@@ -22,9 +21,22 @@ def show_messages(category):
 
     st.divider()
 
-
     if "editing_message" not in st.session_state:
         st.session_state.editing_message = None
+
+    # -----------------------------
+    # Current dates
+    # -----------------------------
+
+    current_date = datetime.today()
+    today_day = current_date.isoweekday()
+
+    days_until_sat = (5 - current_date.weekday()) % 7
+    if days_until_sat == 0:
+        days_until_sat = 7
+
+    next_saturday = current_date + timedelta(days=days_until_sat)
+    next_sunday = next_saturday + timedelta(days=1)
 
     # -----------------------------
     # Load JSON
@@ -49,22 +61,21 @@ def show_messages(category):
         st.info("No messages available.")
         return
 
-    # Monday=1, Tuesday=2, ..., Friday=5
-    today = min(datetime.today().weekday() + 1, 5)
-
-    def sort_key(msg):
-        day = msg.get("day")
-
-        # Messages without a day go last
-        if day is None:
-            return (999, msg.get("order", 999))
-
-        # Rotate the week so today's messages come first
-        return ((day - today) % 5, msg.get("order", 999))
-
     # -----------------------------
     # Sort
     # -----------------------------
+
+    def sort_key(msg):
+
+        day = msg.get("day")
+
+        if day is None:
+            return (999, msg.get("order", 999))
+
+        return (
+            (day - today_day) % 7,
+            msg.get("order", 999),
+        )
 
     filtered.sort(key=sort_key)
 
@@ -74,28 +85,24 @@ def show_messages(category):
 
     for msg in filtered:
 
-        with st.container(border=True):
-
-            today = datetime.today()
-
-            days_until_sat = (5 - today.weekday()) % 7
-            if days_until_sat == 0:
-                days_until_sat = 7
-
-            next_saturday = today + timedelta(days=days_until_sat)
-            next_sunday = next_saturday + timedelta(days=1)
-
-
-            formatted_text = (
-                msg["text"]
-                .replace("{TODAY}", datetime.today().strftime("%m/%d"))
-                .replace(
-                    "{TOMORROW}",
-                    (datetime.today() + timedelta(days=1)).strftime("%m/%d"),
-                )
-                .replace("{NEXT_SATURDAY}", next_saturday.strftime("%m/%d"))
-                .replace("{NEXT_SUNDAY}", next_sunday.strftime("%m/%d"))
+        formatted_text = (
+            msg["text"]
+            .replace("{TODAY}", current_date.strftime("%m/%d"))
+            .replace(
+                "{TOMORROW}",
+                (current_date + timedelta(days=1)).strftime("%m/%d"),
             )
+            .replace(
+                "{NEXT_SATURDAY}",
+                next_saturday.strftime("%m/%d"),
+            )
+            .replace(
+                "{NEXT_SUNDAY}",
+                next_sunday.strftime("%m/%d"),
+            )
+        )
+
+        with st.container(border=True):
 
             # ------------------------
             # Header
@@ -104,8 +111,10 @@ def show_messages(category):
             c1, c2 = st.columns([5, 1])
 
             with c1:
+
                 st.subheader(msg["title"])
-                if msg.get("day") == today:
+
+                if msg.get("day") == today_day:
                     st.success("🟢 Today's Message")
 
             with c2:
@@ -155,9 +164,7 @@ def show_messages(category):
                             )
 
                         st.session_state.editing_message = None
-
                         st.success("Message saved!")
-
                         st.rerun()
 
                 with cancel_col:
