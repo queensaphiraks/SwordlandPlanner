@@ -43,7 +43,7 @@
       "day": 5,
       "order": 5,
       "title": "KvK Prep Schedule — Day 5",
-      "text": "📢 KvK Prep Schedule — Day 5\n\n⚠️ This phase lasts 10 hours longer than the other days!\n\n✅ Gather \n✅ Intel Missions 🌐\n✅  / Widget\n✅ Mithril\n✅ Truegold  / Dust\n✅ Speedups \n✅ Pet XP/Marks 🐻\n✅ Gov. Gear\n✅ Masters Speedups"
+      "text": "📢 KvK Prep Schedule — Day 5. This phase lasts 10 hours longer than the other days!\n\n✅ Gather \n✅ Intel Missions 🌐\n✅  / Widget\n✅ Mithril\n✅ Truegold  / Dust\n✅ Speedups \n✅ Pet XP/Marks 🐻\n✅ Gov. Gear\n✅ Masters Speedups"
     },
     {
       "id": "bear_daily",
@@ -130,7 +130,7 @@
       "day": 1,
       "order": 1,
       "title": "Golden Glaives — Monday",
-      "text": "🌟 GOLDEN GLAIVES MONDAY! 🌟\n\n🏦 SAVE YOUR SUNDAY INTELS!\n\n────────────────────\n🕛 00:00 UTC → ✅ Do / ✅ Collect 💰\n🕗 08:00 UTC → ✅ Do / 🚫 Collect 💰\n🕓 16:00 UTC → 🚫 Do / 🚫 Collect 💰\n🕛 00:00 UTC → ✅ Do / ✅ Collect 💰\n────────────────────\n\n💡 HOW IT WORKS:\n• DO = Complete Intel Missions.\n• COLLECT = Claim the Intel rewards (💰).\n• Hold Pan until after 16:00 UTC to receive additional Intel Missions."
+      "text": "🌟 GOLDEN GLAIVES MONDAY! 🌟\n🏦 SAVE YOUR SUNDAY INTELS!\n——————————————\n🕛 00 UTC → ✅ Do / ✅ Collect 💰\n🕗 08 UTC → ✅ Do / 🚫 Collect 💰\n🕓 16 UTC → 🚫 Do / 🚫 Collect 💰\n🕛 00 UTC → ✅ Do / ✅ Collect 💰\n——————————————\n💡 HOW IT WORKS:\n*DO = Complete Intel Missions.\n*COLLECT = Claim the Intel rewards (💰).\n**Hold Pan until after 16 UTC to receive additional Intel Missions."
     },
     {
       "id": "vikings_main",
