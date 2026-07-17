@@ -14,6 +14,4 @@ DEFAULT_ROAMER = "Ghost"
 DEFAULT_SHEET_URL = (
     "https://docs.google.com/spreadsheets/d/"
     "1yZ-SzRwAzjJIKn1MpgpeYfJTkd42_bxU/"
-    "edit?usp=sharing&ouid=104085119238103991131&"
-    "rtpof=true&sd=true"
 )

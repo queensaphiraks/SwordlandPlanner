@@ -1,0 +1,248 @@
+{
+  "messages": [
+    {
+      "id": "kvk_day1",
+      "category": "KVK",
+      "subcategory": "Preparation",
+      "day": 1,
+      "order": 1,
+      "title": "KvK Prep Schedule — Day 1",
+      "text": "📢 KvK Prep Schedule — Day 1\n\n✅ Truegold \n✅ Construction Speedups \n✅ Masters Speedups\n✅ Intel Missions 🌐\n✅ Gov. Charm ✨"
+    },
+    {
+      "id": "kvk_day2",
+      "category": "KVK",
+      "subcategory": "Preparation",
+      "day": 2,
+      "order": 2,
+      "title": "KvK Prep Schedule — Day 2",
+      "text": "📢 KvK Prep Schedule — Day 2\n\n✅ Shards \n✅ Truegold  / Dust\n✅ Research Speedups \n✅ Emblems / Manuscripts\n✅ Masters Speedups\n✅ Gather \n✅ Hero Roulette 🎡\n\nDon't forget gathering buffs today."
+    },
+    {
+      "id": "kvk_day3",
+      "category": "KVK",
+      "subcategory": "Preparation",
+      "day": 3,
+      "order": 3,
+      "title": "KvK Prep Schedule — Day 3",
+      "text": "📢 KvK Prep Schedule — Day 3\n\n✅ Shards \n✅ Intel Missions 🌐\n✅ Pet XP/Marks 🐻\n✅ Gov. Charm ✨\n✅ Hero Roulette 🎡\n✅ Emblems / Manuscripts\n\nApply for Nobel Advisor and use a Training Capacity Buff to line up troop collection for Day 4.\nTiming depends on your own training speedups."
+    },
+    {
+      "id": "kvk_day4",
+      "category": "KVK",
+      "subcategory": "Preparation",
+      "day": 4,
+      "order": 4,
+      "title": "KvK Prep Schedule — Day 4",
+      "text": "📢 KvK Prep Schedule — Day 4\n\n✅ Troop Training\n✅ Gather \n✅  / Widget\n✅ Gov. Charm ✨\n✅ Mithril\n✅ General Troop Speedups\n\nDon't forget gathering buffs!\nSave Pan in Intel Missions until 16:00 UTC for additional missions for Day 5."
+    },
+    {
+      "id": "kvk_day5",
+      "category": "KVK",
+      "subcategory": "Preparation",
+      "day": 5,
+      "order": 5,
+      "title": "KvK Prep Schedule — Day 5",
+      "text": "📢 KvK Prep Schedule — Day 5\n\n⚠️ This phase lasts 10 hours longer than the other days!\n\n✅ Gather \n✅ Intel Missions 🌐\n✅  / Widget\n✅ Mithril\n✅ Truegold  / Dust\n✅ Speedups \n✅ Pet XP/Marks 🐻\n✅ Gov. Gear\n✅ Masters Speedups"
+    },
+    {
+      "id": "bear_daily",
+      "category": "Bear",
+      "subcategory": "Daily",
+      "order": 1,
+      "title": "Daily Bear Reminder",
+      "text": "🐻 TODAY {TODAY} 🐻\n\nBear 1 @ 15:30 UTC\nBear 2 @ 20:00 UTC\n\n💪 Rally Leaders send FULL march.\n\n👉 Join rallies with 120k troops.\n\n🙋 When JOINING use:\nChenko • Amadeus • Yeonwoo • Amane • Margot • Vivian"
+    },
+    {
+      "id": "bear_trap_rules",
+      "category": "Bear",
+      "subcategory": "Trap",
+      "order": 2,
+      "title": "Trap Rally Rules",
+      "text": "🚨 TRAP 1 – NEW RULES 🚨\n\n⚡ ROW 1: Start your rally immediately.\n\n⚡ REMAINING ROWS: Start your rally after 1:30.\n\n🔄 Once your rally returns home, start another immediately.\n\n⭐ Keep only TWO rallies in your Favorites:\n• Apex\n• Larry\n• Ghost\n\n🔔 Always join the TOP rally in your list first.\n❌ Do NOT skip rallies."
+    },
+    {
+      "id": "ab_schedule_reference",
+      "category": "Alliance Brawl",
+      "subcategory": "Reference",
+      "order": 99,
+      "title": "Alliance Brawl Weekly Schedule",
+      "text": "Day | 1 | 2 | 3 | 4 | 5 | 6\n\nTrucks                ✅ ✅ ✅ ✅ ✅ ✅\nHero Shards           🚫 ✅ 🚫 🚫 🚫 ✅\nTruegold / Dust       ✅ ✅ 🚫 🚫 ✅ ✅\nSpeedups              ✅ ✅ 🚫 🚫 ✅ ✅\nTroop Training        🚫 🚫 🚫 ✅ 🚫 🚫\nPet XP / Marks        🚫 🚫 ✅ 🚫 🚫 ✅\nGovernor Gear         🚫 🚫 🚫 🚫 ✅ ✅\nGovernor Charms       🚫 🚫 ✅ ✅ 🚫 ✅\nHammers / Widgets     🚫 🚫 🚫 ✅ 🚫 ✅\nGather                ✅ 🚫 ✅ 🚫 🚫 🚫\nIntel Missions        🚫 ✅ 🚫 ✅ 🚫 🚫\nBeasts / Terrors      🚫 🚫 🚫 🚫 ✅ ✅\nEmblems               ✅ ✅ 🚫 🚫 🚫 🚫\nMithril               🚫 🚫 🚫 ✅ 🚫 ✅\nGems / Top-up         ✅ ✅ ✅ ✅ ✅ ✅"
+    },
+    {
+      "id": "ab_day1",
+      "category": "Alliance Brawl",
+      "subcategory": "Schedule",
+      "day": 1,
+      "order": 1,
+      "title": "Alliance Brawl — Day 1",
+      "text": "📢 AB Schedule — Day 1\n\n✅ Trucks\n✅ Truegold / Dust\n✅ Speedups\n✅ Gather\n✅ Gems / Top-up\n✅ Emblems / Manuscripts\n\n✨ Merchant Empire Tip:\n• Don't send Escort Trucks immediately at reset.\n• Wait until after ~06:00 UTC.\n• Right after reset is the highest risk of being raided.\n• Attack caravans belonging to Alliance Brawl opponents.\n• Save your assists for high-value trucks.\n• Use all 4 attacks for maximum points! 💪"
+    },
+    {
+      "id": "ab_day2",
+      "category": "Alliance Brawl",
+      "subcategory": "Schedule",
+      "day": 2,
+      "order": 2,
+      "title": "Alliance Brawl — Day 2",
+      "text": "📢 AB Schedule — Day 2\n\n✅ Trucks\n✅ Truegold / Dust\n✅ Speedups\n✅ Hero Shards\n✅ Intel Missions\n✅ Gems / Top-up\n✅ Emblems / Manuscripts\n\n✨ Merchant Empire Tip:\n• Don't send Escort Trucks immediately at reset.\n• Wait until after ~06:00 UTC.\n• Right after reset is the highest risk of being raided.\n• Attack caravans belonging to Alliance Brawl opponents.\n• Save your assists for high-value trucks.\n• Use all 4 attacks for maximum points! 💪"
+    },
+    {
+      "id": "ab_day3",
+      "category": "Alliance Brawl",
+      "subcategory": "Schedule",
+      "day": 3,
+      "order": 3,
+      "title": "Alliance Brawl — Day 3",
+      "text": "📢 AB Schedule — Day 3\n\n✅ Trucks\n✅ Pet XP / Marks\n✅ Governor Charms\n✅ Gather\n✅ Gems / Top-up\n\n✨ Merchant Empire Tip:\n• Don't send Escort Trucks immediately at reset.\n• Wait until after ~06:00 UTC.\n• Right after reset is the highest risk of being raided.\n• Attack caravans belonging to Alliance Brawl opponents.\n• Save your assists for high-value trucks.\n• Use all 4 attacks for maximum points! 💪"
+    },
+    {
+      "id": "ab_day4",
+      "category": "Alliance Brawl",
+      "subcategory": "Schedule",
+      "day": 4,
+      "order": 4,
+      "title": "Alliance Brawl — Day 4",
+      "text": "📢 AB Schedule — Day 4\n\n✅ Trucks\n✅ Troop Training\n✅ Governor Charms\n✅ Hammers / Widgets\n✅ Intel Missions\n✅ Mithril\n✅ Gems / Top-up\n\n✨ Merchant Empire Tip:\n• Don't send Escort Trucks immediately at reset.\n• Wait until after ~06:00 UTC.\n• Right after reset is the highest risk of being raided.\n• Attack caravans belonging to Alliance Brawl opponents.\n• Save your assists for high-value trucks.\n• Use all 4 attacks for maximum points! 💪"
+    },
+    {
+      "id": "ab_day5",
+      "category": "Alliance Brawl",
+      "subcategory": "Schedule",
+      "day": 5,
+      "order": 5,
+      "title": "Alliance Brawl — Day 5",
+      "text": "📢 AB Schedule — Day 5\n\n✅ Trucks\n✅ Truegold / Dust\n✅ Speedups\n✅ Governor Gear\n✅ Beasts / Terrors\n✅ Gems / Top-up\n\n✨ Merchant Empire Tip:\n• Don't send Escort Trucks immediately at reset.\n• Wait until after ~06:00 UTC.\n• Right after reset is the highest risk of being raided.\n• Attack caravans belonging to Alliance Brawl opponents.\n• Save your assists for high-value trucks.\n• Use all 4 attacks for maximum points! 💪"
+    },
+    {
+      "id": "ab_day6",
+      "category": "Alliance Brawl",
+      "subcategory": "Schedule",
+      "day": 6,
+      "order": 6,
+      "title": "Alliance Brawl — Day 6",
+      "text": "📢 AB Schedule — Day 6\n\n🔥 Final day! This stage lasts an EXTRA 12 hours.\n\n✅ Trucks\n✅ Truegold / Dust\n✅ Hero Shards\n✅ Speedups\n✅ Hammers / Widgets\n✅ Pet XP / Marks\n✅ Governor Gear\n✅ Governor Charms\n✅ Beasts / Terrors\n✅ Mithril\n✅ Gems / Top-up\n\n🐯 Make the most of the extra time and finish strong!"
+    },
+    {
+      "id": "gg_monday",
+      "category": "Golden Glaives",
+      "subcategory": "Monday",
+      "day": 1,
+      "order": 1,
+      "title": "Golden Glaives — Monday",
+      "text": "🌟 GOLDEN GLAIVES MONDAY! 🌟\n\n🏦 SAVE YOUR SUNDAY INTELS!\n\n────────────────────\n🕛 00:00 UTC → ✅ Do / ✅ Collect 💰\n🕗 08:00 UTC → ✅ Do / 🚫 Collect 💰\n🕓 16:00 UTC → 🚫 Do / 🚫 Collect 💰\n🕛 00:00 UTC → ✅ Do / ✅ Collect 💰\n────────────────────\n\n💡 HOW IT WORKS:\n• DO = Complete Intel Missions.\n• COLLECT = Claim the Intel rewards (💰).\n• Hold Pan until after 16:00 UTC to receive additional Intel Missions."
+    },
+    {
+      "id": "vikings_main",
+      "category": "Vikings",
+      "subcategory": "Preparation",
+      "order": 1,
+      "title": "Vikings Event",
+      "text": "🛡️ VIKINGS {TODAY} - 20:00 UTC 🛡️\n\n🚶 Try to send ALL Infantry & Cavalry.\n\n💪 Keep 3 strong defense heroes at home.\n\n⚡ Be online for more points.\n\n🏠 Send your location & status (Online / Offline) in the KNG VV chat."
+    },
+    {
+      "id": "vikings_waves",
+      "category": "Vikings",
+      "subcategory": "HQ",
+      "order": 2,
+      "title": "Vikings HQ Waves",
+      "text": "🌊 WAVES 10 & 20\n\n🏰 Send 108K troops to HQ.\n\n🚶 Wave 10\n• 108K Infantry\n\n🐎 Wave 20\n• 38K Infantry / 70K Cavalry\nOR\n• 48K Infantry / 60K Cavalry\nOR\n• 108K Infantry\n\n⚠️ R4s may remove players from HQ if they send fewer troops."
+    },
+    {
+      "id": "terror_reminder",
+      "category": "Various",
+      "subcategory": "Reminder",
+      "order": 1,
+      "title": "Terror Reminder",
+      "text": "TERROR REMINDER:\n\nDon’t miss out on free rewards.\n\nTurn on your Auto-Join and help others with hunting Terrors! 🙏"
+    },
+    {
+      "id": "ac_registration",
+      "category": "AC",
+      "subcategory": "Alliance Championship",
+      "order": 2,
+      "title": "Alliance Championship Registration",
+      "text": "Alliance Championship\n\nRegister your troops in the “MIDDLE”\n\nRatios if using Jaegar:\n70% | 29.9999% | 1ea Archer (Remove Jaegers Hero Gear)\n\nRatios if using Attack Archers:\n50% | 20% | 30%\n\nRatios if using Defense Archer:\n60% | 20% | 20%"
+    },
+    {
+      "id": "ac_heroes",
+      "category": "AC",
+      "subcategory": "Alliance Championship",
+      "order": 3,
+      "title": "Alliance Championship Heroes",
+      "text": "Ideal Heroes for the 70% | 29.9999% | 1ea Archer formation.\n\nListed in order of preference with most preferred listed first.\n\nInfantry:\nAlcar 4+ star / Long Fei 4+ star\n\nCavalry:\nThrud / Sophia / Margot / Petra\n\nArcher:\nJaeger 3+ star"
+    },
+    {
+      "id": "ac_reminder",
+      "category": "AC",
+      "subcategory": "Alliance Championship",
+      "order": 4,
+      "title": "Alliance Championship Reminder",
+      "text": "🚨 ALLIANCE CHAMPIONSHIP REMINDER:\n\nRegistration ends TODAY {TODAY} at 23:00 UTC\n\nIf you use your Pets, City Buffs, and/or Castle Appointments today, make sure you register for the Alliance Championship 🙏\n\nNOTE: DO NOT LEAVE KNG after you register your troops. Otherwise you will have to register again when you return to KNG and will lose your buffs for the competition."
+    },
+    {
+      "id": "cesares_fury_start",
+      "category": "Cesares Fury",
+      "subcategory": "Cesares Fury",
+      "order": 1,
+      "title": "Cesares Fury Started",
+      "text": "Cesares Fury Event Started Today {TODAY}:\n\nPlease focus on accomplishing this right away. If you get stuck call a rally or request help.\n\nTip: Use Diana to reduce stamina cost and don’t forget to equip her with strong hero gear (she does NOT need to be a 1st slot hero)."
+    },
+    {
+      "id": "cesares_fury_captains_1_5",
+      "category": "Cesares Fury",
+      "subcategory": "Cesares Furyy",
+      "order": 2,
+      "title": "Battles 1-5",
+      "text": "Today - Cesares Fury Battles 1-5\n\nCaptains 1 & 2 after 🐻 #1\n\nCaptains 3-5 after 🐻 #2\n\nATTACK RULES:\n\nFor the 1st initial attack send 1 Archer and allow everyone to make contact with the Cesare Captains (1-5) before launching your next (full army attacks).\n\nNOTE: DO NOT TELEPORT."
+    },
+    {
+      "id": "sanctuary_battle",
+      "category": "Various",
+      "subcategory": "Battle",
+      "order": 5,
+      "title": "Sanctuary Battle",
+      "text": "🚨 SANCTUARY BATTLE\n\n~~ Rules \n👎 NO Solo attacks\n👎 Don’t TP over\n✅ Join the rally\n✅ Minimum Troops e.g. 1 - 10k"
+    },
+    {
+      "id": "swordland_registration",
+      "category": "Swordland & Tri",
+      "subcategory": "Registration",
+      "order": 1,
+      "title": "Swordland Registration",
+      "text": "🚨 SWORDLAND REGISTRATION\n\nIf you are available to participate in Swordland on Sunday {NEXT_SUNDAY}, please send me a private message with your preference:\n\nLegion 2 @ 12:00 UTC\nLegion 1 @ 19:00 UTC\n\n⚠ If you can participate in either Legion, please let me know 😊"
+    },
+    {
+      "id": "swordland_registration_reminder",
+      "category": "Swordland & Tri",
+      "subcategory": "Registration",
+      "order": 2,
+      "title": "Swordland Registration Reminder",
+      "text": "🚨 SWORDLAND REGISTRATION REMINDER:\n\nIf you left KNG make sure you are back by 22:00 UTC and DO NOT LEAVE.\n\nIf you plan to participate in Swordland this week, verify you are signed up by making sure you have a ✅ next to your name.\n\nIf you don't see a checkmark, please contact an R4 immediately 🙏"
+    },
+    {
+      "id": "tri_swordland_registration",
+      "category": "Swordland & Tri",
+      "subcategory": "Registration",
+      "order": 3,
+      "title": "Tri & Swordland Registration",
+      "text": "🚨 SWORDLAND AND TRI REGISTRATION\n\nIf you are available to participate in Swordland and/or Tri-Alliance, please send me a message with your preference:\n\nTRI - {NEXT_SATURDAY}\nLegion 2 @ 14:00 UTC\nLegion 1 @ 19:00 UTC\n\nSWORDLAND - {NEXT_SUNDAY}\nLegion 2 @ 14:00 UTC\nLegion 1 @ 19:00 UTC"
+    },
+    {
+        "id": "bear_trap1_30min",
+        "category": "Bear",
+        "subcategory": "Reminder",
+        "order": 3,
+        "title": "Trap 1 Reminder",
+        "text": "🐻 TRAP 1 in 30 mins 🐻\n\nBear Trap 1 @ 15:30 UTC\n\n💪 Rally Leaders send FULL march\n\n👉 Join with 120k max\n\n👉 Join with one of the following as first hero:\nChenko • Amadeus • Yeonwoo • Amane • Margot • Vivian"
+    },
+    {
+        "id": "bear_trap2_30min",
+        "category": "Bear",
+        "subcategory": "Reminder",
+        "order": 4,
+        "title": "Trap 2 Reminder",
+        "text": "🐻 TRAP 2 in 30 mins 🐻\n\nBear Trap 2 @ 20:00 UTC\n\n💪 Rally Leaders send FULL march\n\n👉 Join with 120k max\n\n👉 Join with one of the following as first hero:\nChenko • Amadeus • Yeonwoo • Amane • Margot • Vivian"
+    }
+  ]
+}
