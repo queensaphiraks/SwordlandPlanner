@@ -59,7 +59,7 @@
       "subcategory": "Trap",
       "order": 2,
       "title": "Trap Rally Rules",
-      "text": "🚨 TRAP 1 – NEW RULES 🚨\n\n⚡ ROW 1: Start your rally immediately.\n\n⚡ REMAINING ROWS: Start your rally after 1:30.\n\n🔄 Once your rally returns home, start another immediately.\n\n⭐ Keep only TWO rallies in your Favorites:\n• Apex\n• Larry\n• Ghost\n\n🔔 Always join the TOP rally in your list first.\n❌ Do NOT skip rallies."
+      "text": "🚨 TRAP 1 – NEW RULES 🚨\n\n⚡ ROW 1: Start rally immediately\n\n⚡ REMAINING ROWS: Start rally after 1:30 minutes\n\n🔄 Once your rally returns home, start another one immediately\n\n⭐ Keep only TWO rallies in your Favorites ( Apex, Larry or Ghost )\n\n🔔 JOIN the rally that is at the top of your list first (DON'T SKIP IT)"
     },
     {
       "id": "ab_schedule_reference",
@@ -131,7 +131,7 @@
       "day": 1,
       "order": 1,
       "title": "Golden Glaives — Monday",
-      "text": "🌟 GOLDEN GLAIVES MONDAY! 🌟\n🏦 SAVE YOUR SUNDAY INTELS!\n——————————————\n🕛 00 UTC → ✅ Do / ✅ Collect 💰\n🕗 08 UTC → ✅ Do / 🚫 Collect 💰\n🕓 16 UTC → 🚫 Do / 🚫 Collect 💰\n🕛 00 UTC → ✅ Do / ✅ Collect 💰\n——————————————\n💡 HOW IT WORKS:\n*DO = Complete Intel Missions.\n*COLLECT = Claim the Intel rewards (💰).\n**Hold Pan until after 16 UTC to receive additional Intel Missions."
+      "text": "🌟 GOLDEN GLAIVES MONDAY! 🌟\n🏦 SAVE YOUR SUNDAY INTELS!\n——————————————\n🕛 00 UTC → ✅ Do / ✅ Collect 💰\n🕗 08 UTC → ✅ Do / 🚫 Collect 💰\n🕓 16 UTC → 🚫 Do / 🚫 Collect 💰\n🕛 00 UTC → ✅ Do / ✅ Collect 💰\n——————————————\n💡 HOW IT WORKS:\n*DO = Complete Intel Missions\n*COLLECT = Claim the Intel rewards (💰)\n**Hold Pan until after 16 UTC to receive additional Intel Missions."
     },
     {
       "id": "vikings_main",
