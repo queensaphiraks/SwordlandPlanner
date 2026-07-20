@@ -67,7 +67,7 @@
       "subcategory": "Reference",
       "order": 99,
       "title": "Alliance Brawl Weekly Schedule",
-      "text": "Day | 1 | 2 | 3 | 4 | 5 | 6\n\nTrucks                ✅ ✅ ✅ ✅ ✅ ✅\nHero Shards           🚫 ✅ 🚫 🚫 🚫 ✅\nTruegold / Dust       ✅ ✅ 🚫 🚫 ✅ ✅\nSpeedups              ✅ ✅ 🚫 🚫 ✅ ✅\nTroop Training        🚫 🚫 🚫 ✅ 🚫 🚫\nPet XP / Marks        🚫 🚫 ✅ 🚫 🚫 ✅\nGovernor Gear         🚫 🚫 🚫 🚫 ✅ ✅\nGovernor Charms       🚫 🚫 ✅ ✅ 🚫 ✅\nHammers / Widgets     🚫 🚫 🚫 ✅ 🚫 ✅\nGather                ✅ 🚫 ✅ 🚫 🚫 🚫\nIntel Missions        🚫 ✅ 🚫 ✅ 🚫 🚫\nBeasts / Terrors      🚫 🚫 🚫 🚫 ✅ ✅\nEmblems               ✅ ✅ 🚫 🚫 🚫 🚫\nMithril               🚫 🚫 🚫 ✅ 🚫 ✅\nGems / Top-up         ✅ ✅ ✅ ✅ ✅ ✅"
+      "text": "Alliance Brawl Schedule:\n\n1 | 2 | 3 | 4 | 5 | 6\n✅|✅|✅|✅|✅|✅| Trucks\n🚫|✅|🚫|🚫|🚫|✅| Shards \n✅|✅|🚫|🚫|✅|✅| Truegold / dust\n🆗|🆗|🚫|🚫|🆗|🆗| Speedups \n🚫|🚫|🚫|✅|🚫|🚫| Troop Training\n🚫|🚫|✅|🚫|🚫|✅| Pet XP/Marks\n🚫|🚫|🚫|🚫|✅|✅| Gov. Gear\n🚫|🚫|✅|✅|🚫|✅| Gov. Charm.\n🚫|🚫|🚫|✅|🚫|✅| /Widgets\n✅|🚫|✅|🚫|🚫|🚫| Gather \n🚫|✅|🚫|✅|🚫|🚫| Intel Missions\n✅|✅|✅|✅|✅|✅| Gems /Top-up $\n🚫|🚫|🚫|🚫|✅|✅| Beast/Terrors\n✅|✅|🚫|🚫|🚫|🚫| Emblem/manuscrip\n🚫|🚫|🚫|✅|🚫|🚫| Mithril"
     },
     {
       "id": "ab_day1",
@@ -76,7 +76,7 @@
       "day": 1,
       "order": 1,
       "title": "Alliance Brawl — Day 1",
-      "text": "📢 AB Schedule — Day 1\n\n✅ Trucks\n✅ Truegold / Dust\n✅ Speedups\n✅ Gather\n✅ Gems / Top-up\n✅ Emblems / Manuscripts\n\n✨ Merchant Empire Tip:\n• Don't send Escort Trucks immediately at reset.\n• Wait until after ~06:00 UTC.\n• Right after reset is the highest risk of being raided.\n• Attack caravans belonging to Alliance Brawl opponents.\n• Save your assists for high-value trucks.\n• Use all 4 attacks for maximum points! 💪"
+      "text": "📢AB Schedule — Day 1\n\n✅ Trucks \n✅Truegold / dust \n✅ Speedups \n✅ Gather  \n✅ Gems / Top-up $\n✅ Emblems / Manuscripts\n\n✨ Tip for merchant empire: don’t send escort trucks right at reset, wait until after ~6 UTC. Higher chance to be raided right at reset. When hitting caravans, target AB opponents. Also save assistance for the high value trucks. Make sure to use all 4 attacks for points! 💪"
     },
     {
       "id": "ab_day2",
@@ -85,7 +85,7 @@
       "day": 2,
       "order": 2,
       "title": "Alliance Brawl — Day 2",
-      "text": "📢 AB Schedule — Day 2\n\n✅ Trucks\n✅ Truegold / Dust\n✅ Speedups\n✅ Hero Shards\n✅ Intel Missions\n✅ Gems / Top-up\n✅ Emblems / Manuscripts\n\n✨ Merchant Empire Tip:\n• Don't send Escort Trucks immediately at reset.\n• Wait until after ~06:00 UTC.\n• Right after reset is the highest risk of being raided.\n• Attack caravans belonging to Alliance Brawl opponents.\n• Save your assists for high-value trucks.\n• Use all 4 attacks for maximum points! 💪"
+      "text": "📢AB Schedule — Day 2\n\n✅ Trucks \n✅ Truegold / dust \n✅ Speedups \n✅ Shards \n✅ Intel missions\n✅ Gems / Top-up $\n✅ Emblems / Manuscripts\n\n✨ Tip for merchant empire: don’t send escort trucks at reset, wait until after ~6 UTC. Higher chance to be raided at reset. When hitting caravans, target AB opponents. Also save assistance for the high value trucks. Make sure to use all 4 attacks for points."
     },
     {
       "id": "ab_day3",
@@ -94,7 +94,7 @@
       "day": 3,
       "order": 3,
       "title": "Alliance Brawl — Day 3",
-      "text": "📢 AB Schedule — Day 3\n\n✅ Trucks\n✅ Pet XP / Marks\n✅ Governor Charms\n✅ Gather\n✅ Gems / Top-up\n\n✨ Merchant Empire Tip:\n• Don't send Escort Trucks immediately at reset.\n• Wait until after ~06:00 UTC.\n• Right after reset is the highest risk of being raided.\n• Attack caravans belonging to Alliance Brawl opponents.\n• Save your assists for high-value trucks.\n• Use all 4 attacks for maximum points! 💪"
+      "text": "📢AB Schedule — Day 3\n\n✅ Trucks \n✅ Pet XP / Marks\n✅ Charms\n✅ Gather \n✅ Gems / Top-up $\n\n✨ Tip for merchant empire: don’t send escort trucks at reset, wait until after ~6 UTC. Higher chance to be raided at reset. When hitting caravans, target AB opponents. Also save assistance for the high value trucks. Make sure to use all 4 attacks for points!"
     },
     {
       "id": "ab_day4",
@@ -103,7 +103,7 @@
       "day": 4,
       "order": 4,
       "title": "Alliance Brawl — Day 4",
-      "text": "📢 AB Schedule — Day 4\n\n✅ Trucks\n✅ Troop Training\n✅ Governor Charms\n✅ Hammers / Widgets\n✅ Intel Missions\n✅ Mithril\n✅ Gems / Top-up\n\n✨ Merchant Empire Tip:\n• Don't send Escort Trucks immediately at reset.\n• Wait until after ~06:00 UTC.\n• Right after reset is the highest risk of being raided.\n• Attack caravans belonging to Alliance Brawl opponents.\n• Save your assists for high-value trucks.\n• Use all 4 attacks for maximum points! 💪"
+      "text": "📢AB Schedule — Day 4\n\n✅ Trucks \n✅ Troop training\n✅ Charms\n✅ Hammers / Widgets\n✅ Intel Missions\n✅ Mithril\n✅ Gems / Top-up $\n\n✨ Tip for merchant empire: don’t send escort trucks right at reset, wait until after ~6 UTC. Higher chance to be raided right at reset. When hitting caravans, target AB opponents. Also save assistance for the high value trucks. Make sure to use all 4 attacks for points! 💪"
     },
     {
       "id": "ab_day5",
@@ -113,6 +113,7 @@
       "order": 5,
       "title": "Alliance Brawl — Day 5",
       "text": "📢 AB Schedule — Day 5\n\n✅ Trucks\n✅ Truegold / Dust\n✅ Speedups\n✅ Governor Gear\n✅ Beasts / Terrors\n✅ Gems / Top-up\n\n✨ Merchant Empire Tip:\n• Don't send Escort Trucks immediately at reset.\n• Wait until after ~06:00 UTC.\n• Right after reset is the highest risk of being raided.\n• Attack caravans belonging to Alliance Brawl opponents.\n• Save your assists for high-value trucks.\n• Use all 4 attacks for maximum points! 💪"
+
     },
     {
       "id": "ab_day6",
@@ -121,7 +122,7 @@
       "day": 6,
       "order": 6,
       "title": "Alliance Brawl — Day 6",
-      "text": "📢 AB Schedule — Day 6\n\n🔥 Final day! This stage lasts an EXTRA 12 hours.\n\n✅ Trucks\n✅ Truegold / Dust\n✅ Hero Shards\n✅ Speedups\n✅ Hammers / Widgets\n✅ Pet XP / Marks\n✅ Governor Gear\n✅ Governor Charms\n✅ Beasts / Terrors\n✅ Mithril\n✅ Gems / Top-up\n\n🐯 Make the most of the extra time and finish strong!"
+      "text": "📢AB Schedule — Day 6\n\nLast day of alliance brawl is here: another terror and beast day 🐯! This stage runs an extra 12 hours!\n\n✅ Trucks \n✅ Truegold / dust \n✅ Hero shards \n✅ Speed-ups \n✅  / widgets\n✅ Pet XP/marks\n✅ Gov Gear and Charms\n✅ Beasts / Terrors \n✅ Mithril \n✅ Gems / Top-up $"
     },
     {
       "id": "gg_monday",
@@ -146,7 +147,7 @@
       "subcategory": "HQ",
       "order": 2,
       "title": "Vikings HQ Waves",
-      "text": "🌊 WAVES 10 & 20\n\n🏰 Send 108K troops to HQ.\n\n🚶 Wave 10\n• 108K Infantry\n\n🐎 Wave 20\n• 38K Infantry / 70K Cavalry\nOR\n• 48K Infantry / 60K Cavalry\nOR\n• 108K Infantry\n\n⚠️ R4s may remove players from HQ if they send fewer troops."
+      "text": "WAVES 10 & 20\n🏰 Send 108K troops to HQ:\n\n🚶 WAVE 10 - Full Inf - 108k INF\n\n🐎 Wave 20 \n38k INF / 70k CAV or\n48k INF / 60k CAV or\n108k INF\n\n⚠R4s may expel from HQ people with fewer troops"
     },
     {
       "id": "terror_reminder",
@@ -229,20 +230,20 @@
       "text": "🚨 SWORDLAND AND TRI REGISTRATION\n\nIf you are available to participate in Swordland and/or Tri-Alliance, please send me a message with your preference:\n\nTRI - {NEXT_SATURDAY}\nLegion 2 @ 14:00 UTC\nLegion 1 @ 19:00 UTC\n\nSWORDLAND - {NEXT_SUNDAY}\nLegion 2 @ 14:00 UTC\nLegion 1 @ 19:00 UTC"
     },
     {
-        "id": "bear_trap1_30min",
-        "category": "Bear",
-        "subcategory": "Reminder",
-        "order": 3,
-        "title": "Trap 1 Reminder",
-        "text": "🐻 TRAP 1 in 30 mins 🐻\n\nBear Trap 1 @ 15:30 UTC\n\n💪 Rally Leaders send FULL march\n\n👉 Join with 120k max\n\n👉 Join with one of the following as first hero:\nChenko • Amadeus • Yeonwoo • Amane • Margot • Vivian"
+      "id": "bear_trap1_30min",
+      "category": "Bear",
+      "subcategory": "Reminder",
+      "order": 3,
+      "title": "Trap 1 Reminder",
+      "text": "🐻 TRAP 1 in 30 mins 🐻\n\nBear Trap 1 @ 15:30 UTC\n\n💪 Rally Leaders send FULL march\n\n👉 Join with 120k max\n\n👉 Join with one of the following as first hero:\nChenko • Amadeus • Yeonwoo • Amane • Margot • Vivian"
     },
     {
-        "id": "bear_trap2_30min",
-        "category": "Bear",
-        "subcategory": "Reminder",
-        "order": 4,
-        "title": "Trap 2 Reminder",
-        "text": "🐻 TRAP 2 in 30 mins 🐻\n\nBear Trap 2 @ 20:00 UTC\n\n💪 Rally Leaders send FULL march\n\n👉 Join with 120k max\n\n👉 Join with one of the following as first hero:\nChenko • Amadeus • Yeonwoo • Amane • Margot • Vivian"
+      "id": "bear_trap2_30min",
+      "category": "Bear",
+      "subcategory": "Reminder",
+      "order": 4,
+      "title": "Trap 2 Reminder",
+      "text": "🐻 TRAP 2 in 30 mins 🐻\n\nBear Trap 2 @ 20:00 UTC\n\n💪 Rally Leaders send FULL march\n\n👉 Join with 120k max\n\n👉 Join with one of the following as first hero:\nChenko • Amadeus • Yeonwoo • Amane • Margot • Vivian"
     }
   ]
 }
