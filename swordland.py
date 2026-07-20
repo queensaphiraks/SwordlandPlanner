@@ -936,9 +936,9 @@ def show_swordland(page):
         }
 
         legion_name = (
-            "⚔️ SWORDLAND LEGION 1 ⚔️"
+            "⚔️ SWORDLAND LEGION 1️⃣ ⚔️"
             if plan["legion"] == "L1"
-            else "⚔️ SWORDLAND LEGION 2 ⚔️"
+            else "⚔️ SWORDLAND LEGION 2️⃣ ⚔️"
         )
 
         discord_lines = []
