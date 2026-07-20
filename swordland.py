@@ -1003,23 +1003,23 @@ def show_swordland(page):
             f"🚶 Roamer: {plan['roamer'] if plan['roamer'] else 'None Assigned'}"
         )
 
-        discord_lines.append("")
+        # discord_lines.append("")
 
-        # =====================================================
-        # UNDERCELLARS
-        # =====================================================
+        # # =====================================================
+        # # UNDERCELLARS
+        # # =====================================================
 
-        if plan["undercellars"]:
+        # if plan["undercellars"]:
 
-            discord_lines.append(
-                f"💰 Undercellars: {' / '.join(plan['undercellars'])}"
-            )
+        #     discord_lines.append(
+        #         f"💰 Undercellars: {' / '.join(plan['undercellars'])}"
+        #     )
 
-        else:
+        # else:
 
-            discord_lines.append(
-                "💰 Undercellars: None Assigned"
-            )
+        #     discord_lines.append(
+        #         "💰 Undercellars: None Assigned"
+        #     )
 
         discord_lines.append("")
         discord_lines.append("")
