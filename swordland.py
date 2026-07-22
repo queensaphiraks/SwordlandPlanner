@@ -23,9 +23,9 @@ def show_swordland(page):
     )
 
     if page in ["swordland_create"]:
-        st.title("➕ Create Plan")
+        st.title("➕ Create Plan - SS")
     else:
-        st.title("📂 Load Plan")
+        st.title("📂 Load Plan - SS")
 
     if st.button(
         "⬅ Back to Menu",

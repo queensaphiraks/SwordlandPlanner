@@ -15,3 +15,8 @@ DEFAULT_SHEET_URL = (
     "https://docs.google.com/spreadsheets/d/"
     "1yZ-SzRwAzjJIKn1MpgpeYfJTkd42_bxU/"
 )
+
+DEFAULT_SHEET_URL_TRI = (
+    "https://docs.google.com/spreadsheets/d/"
+    "1OlqlE1L95ifmIIL4P-37_38B2PWuY8fJ/"
+)

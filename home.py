@@ -44,18 +44,24 @@ def show_home():
     c1, c2 = st.columns(2)
 
     with c1:
-        st.button(
+        if st.button(
             "➕ Create Plan",
             use_container_width=True,
-            key="ta_create",
-        )
+            key="tri_create",
+        ): 
+
+            st.session_state.page = "tri_create"
+            st.rerun()
 
     with c2:
-        st.button(
+        if st.button(
             "📂 Load Plan",
             use_container_width=True,
-            key="ta_load",
-        )
+            key="tri_load",
+        ):
+        
+            st.session_state.page = "tri_load"
+            st.rerun()
 
     st.divider()
 
